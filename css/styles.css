@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Catamaran", sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  align-items: center;
+  background-color: #ccda46;
+  position: fixed;
+  font-family: "Pridi", serif;
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  margin-left: 20px;
+}
