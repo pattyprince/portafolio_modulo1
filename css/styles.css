@@ -40,7 +40,7 @@ nav ul li {
 
 .jumbotron {
   height: 500px;
-  background-image: url("/img/header_jumbatron.png");
+  background-image: url("../img/header_jumbatron.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #202020;
