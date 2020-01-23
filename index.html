@@ -26,15 +26,13 @@
       src="https://kit.fontawesome.com/59516e3d10.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="..." />
+    <link rel="shortcut icon" href="" />
     <title>Patty Prince | Portafolio</title>
   </head>
   <body>
-    <div class="fondo__navbar">
-      <nav class="container navbar navbar-expand-lg">
-        <a class="navbar-brand" href="./index.html"
-          ><img src="..." alt="Patty Prince"
-        /></a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Patty Prince</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,25 +44,378 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse ml-4" id="navbarNav">
+          <ul class="navbar-nav ml-4 smooth-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca_mi">Acerca de mi</a>
+            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Inicio<span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#proyectos"
+                >Proyectos<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Catálogo</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ofertas</a>
+              <a class="nav-link" href="#habilidades">Habilidades</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
+            <li class="nav-item"></li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
+    <!-- Inicio jumbotron -->
+    <header class="principal">
+      <div class="row">
+        <div class="jumbotron jumbotron-fluid container-fluid">
+          <div class="container">
+            <h1 class="display-4">Seamos un equipo</h1>
+            <p class="lead">La mejor forma de construir comienza conversando</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- fin jumbotron -->
+
+    <!-- inicio acerca de mi -->
+    <section id="acerca_mi" class="acerca container-fluid px-4">
+      <div class="container mx-5 py-4">
+        <h2 class="text-center py-4">
+          ACERCA DE MI
+        </h2>
+        <div class="row">
+          <article class="col-md-6 col-lg-6 px-4">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              maxime, alias eligendi illum eaque recusandae nihil laudantium ad
+              suscipit neque similique sint, culpa est! Aperiam ipsam corrupti
+              molestias ratione vero?Repellendus sunt ab numquam soluta esse
+              iusto cumque perferendis cum odit, quo iste, omnis sapiente,
+              nostrum temporibus odio optio! Minima, commodi ex?
+            </p>
+          </article>
+          <article class="col-md-6 col-lg-6 px-4">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              explicabo vel necessitatibus, repudiandae dolorem perferendis, et
+              maiores debitis voluptatibus reiciendis blanditiis unde. Fuga iste
+              eligendi ea architecto mollitia! Repellendus sunt ab numquam
+              soluta esse iusto cumque perferendis cum odit, quo iste, omnis
+              sapiente, nostrum temporibus odio optio! Minima, commodi ex?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- fin acerca de mi -->
+    <!-- inicio proyectos -->
+    <section id="proyectos" class="container-fluid col-md-6 col-lg-12 p-4">
+      <h2 class="text-center py-4">
+        MIS PROYECTOS
+      </h2>
+      <div class="row row-cols-1 row-cols-md-2">
+        <!-- proyecto1 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img
+              src="./img/meet_coffee.PNG"
+              class="card-img-top"
+              alt="Meet & Coffee"
+            /><button
+              type="button"
+              class="btn btn-outline-dark"
+              data-toggle="modal"
+              data-target=".bd-example-modal-lg"
+            >
+              Ver proyecto
+            </button>
+            <div
+              class="modal fade bd-example-modal-lg"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="./img/meet_coffee.PNG" alt="Meet & Coffee" />
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Meet & Coffee Page</h5>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto2 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img
+              src="./img/iguana3.PNG"
+              class="card-img-top"
+              alt="Iguana página"
+            /><button
+            type="button"
+            class="btn btn-outline-dark"
+            data-toggle="modal"
+            data-target=".bd-example-modal-lg"
+          >
+            Ver proyecto
+          </button>
+          <div
+            class="modal fade bd-example-modal-lg"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myLargeModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <img src="./img/iguana2.png" alt="Iguana Page" />
+              </div>
+            </div>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Iguana Page</h5>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto3 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img src="./img/cuppon.png" class="card-img-top" alt="Cuppon" /><button
+            type="button"
+            class="btn btn-outline-dark"
+            data-toggle="modal"
+            data-target=".bd-example-modal-lg"
+          >
+            Ver proyecto
+          </button>
+          <div
+            class="modal fade bd-example-modal-lg"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myLargeModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <img src="./img/cuppon2.png" alt="Cuppon" />
+              </div>
+            </div>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Cuppon</h5>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto4 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img src="./img/ricomida.png" class="card-img-top" alt="Ricomida" /><button
+            type="button"
+            class="btn btn-outline-dark"
+            data-toggle="modal"
+            data-target=".bd-example-modal-lg"
+          >
+            Ver proyecto
+          </button>
+          <div
+            class="modal fade bd-example-modal-lg"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myLargeModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <img src="./img/ricomida.png" alt="Ricomida" />
+              </div>
+            </div>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Ricomida</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin de proyectos -->
+    <!--inicio Mi experiencia  -->
+    <section id="experiencia" class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <h2 class="text-center py-4">
+            MI EXPERIENCIA
+          </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="container">
+                <div class="page-header"></div>
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">Analista de Prensa</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          Mussum ipsum cacilds, vidis litro abertis. Consetis
+                          adipiscings elitis. Pra lá , depois divoltis porris,
+                          paradis. Paisis, filhis, espiritis santis. Mé faiz
+                          elementum girarzis, nisi eros vermeio, in elementis mé
+                          pra quem é amistosis quis leo. Manduma pindureta quium
+                          dia nois paga. Sapien in monti palavris qui num
+                          significa nadis i pareci latim. Interessantiss quisso
+                          pudia ce receita de bolis, mais bolis eu num gostis.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge warning">
+                      <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">Periodista</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          Mussum ipsum cacilds, vidis litro abertis. Consetis
+                          adipiscings elitis. Pra lá , depois divoltis porris,
+                          paradis. Paisis, filhis, espiritis santis. Mé faiz
+                          elementum girarzis, nisi eros vermeio, in elementis mé
+                          pra quem é amistosis quis leo. Manduma pindureta quium
+                          dia nois paga. Sapien in monti palavris qui num
+                          significa nadis i pareci latim. Interessantiss quisso
+                          pudia ce receita de bolis, mais bolis eu num gostis.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge danger">
+                      <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">
+                          Asesor de Comunicaciones Corporativas
+                        </h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          Mussum ipsum cacilds, vidis litro abertis. Consetis
+                          adipiscings elitis. Pra lá , depois divoltis porris,
+                          paradis. Paisis, filhis, espiritis santis. Mé faiz
+                          elementum girarzis, nisi eros vermeio, in elementis mé
+                          pra quem é amistosis quis leo. Manduma pindureta quium
+                          dia nois paga. Sapien in monti palavris qui num
+                          significa nadis i pareci latim. Interessantiss quisso
+                          pudia ce receita de bolis, mais bolis eu num gostis.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin mi experiencia -->
+    <!-- inicio habilidades -->
+    <section id="habilidades">
+      <h2 class="text-center py-4">
+        MIS HABILIDADES
+      </h2>
+      <div class="row">
+        <div class="media col-lg-8">
+          <img
+            src="./img/writing.png"
+            class="align-self-center mr-3"
+            alt="Habilidades blandas"
+          />
+          <div class="media-body">
+            <h5 class="mt-0">Habilidades blandas</h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="./img/writing.png"
+            class="align-self-center mr-3"
+            alt="Habilidades blandas"
+          />
+          <div class="media-body">
+            <h5 class="mt-0">Habilidades blandas</h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <img
+            src="./img/writing.png"
+            class="align-self-center mr-3"
+            alt="Habilidades blandas"
+          />
+          <div class="media-body">
+            <h5 class="mt-0">Habilidades blandas</h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin habilidades -->
+    <!-- inicio contacto -->
+    <section id="contacto" class="contacto_form">
+      <div>
+        <h2>
+          LAS BUENAS IDEAS NACEN EN <span class="navbar-brand">EQUIPO</span>
+        </h2>
+      </div>
+      <div class="text-center">
+        <button
+          type="button"
+          class="btn btn-outline-secondary btn-lg text-white mb-5"
+        >
+        <a class="typeform-share button" href="https://patty801226.typeform.com/to/Pd2Tll" data-mode="popup" style="display:inline-block;text-decoration:none;background-color: transparent;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Conversemos </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </button>
+      </div>
+    </section>
+    <!-- fin contacto -->
+    <!-- footer  -->
+    <footer class="bg-dark container-fluid">
+      <div class="row">
+        <div class="footer col-12 py-4 h4 text-center ">
+          Patty Prince 2020 - Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -82,5 +433,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
