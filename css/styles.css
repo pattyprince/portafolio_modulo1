@@ -39,7 +39,7 @@ nav ul li {
 }
 
 .jumbotron {
-  height: 600px;
+  height: 500px;
   background-image: url("/img/header_jumbatron.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,6 +226,19 @@ hr {
 }
 
 footer {
-  color: white;
   font-family: "catamaran";
+  text-align: center;
+  color: white;
+}
+
+footer a:active {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
 }
