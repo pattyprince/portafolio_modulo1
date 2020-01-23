@@ -5,6 +5,10 @@ body {
   background-color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:active {
   color: #202020;
 }
@@ -18,9 +22,7 @@ a:visited {
 }
 
 .navbar {
-  width: 100vw;
-  height: 80px;
-  background-color: #ccda46;
+  background-color: #f5f5f5;
   font-family: "Pridi", serif;
   font-size: large;
   text-decoration: none;
@@ -29,17 +31,15 @@ a:visited {
 
 .navbar-brand {
   font-family: "Pridi";
-  font-size: xx-large;
+  font-size: 40px;
 }
 
 nav ul li {
-  display: inline;
   color: #202020;
-  margin-left: 20px;
 }
 
 .jumbotron {
-  height: 550px;
+  height: 600px;
   background-image: url("/img/header_jumbatron.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,14 +47,18 @@ nav ul li {
 }
 
 .acerca {
-  height: 400px;
+  height: 300px;
   margin: 0;
   padding-top: 30px;
   background-color: white;
 }
 
+hr {
+  border: solid 1px gray;
+}
+
 #proyectos {
-  background-color: #697c37;
+  background-color: #f8f9fa;
   color: #202020;
 }
 
@@ -64,7 +68,12 @@ nav ul li {
 }
 
 #habilidades {
-  background-color: #ccda46;
+  background-color: #202020;
+  color: white;
+}
+
+#habilidades img {
+  height: 64px;
 }
 
 .timeline {
@@ -208,15 +217,15 @@ nav ul li {
 
 #contacto {
   height: 400px;
-  background-color: #fe9801;
+  background-color: #d9534f;
   display: flex;
   text-align: center;
-  color: 202020;
+  color: white;
   justify-content: center;
   flex-direction: column;
 }
 
 footer {
   color: white;
-  font-family: "Pridi";
+  font-family: "catamaran";
 }
