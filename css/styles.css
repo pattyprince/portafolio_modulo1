@@ -231,18 +231,14 @@ footer {
   color: white;
 }
 
-footer a:active {
+footer i:hover {
+  color: #999999;
+}
+
+footer i {
   color: white;
 }
 
-footer a:hover {
-  color: white;
-}
-
-footer a:visited {
-  color: white;
-}
-
-footer a:focus {
-  color: white;
+footer i:visited {
+  color: #f2f2f2;
 }
