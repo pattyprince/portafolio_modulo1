@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.fondo__navbar {
+  background-color: #28a745;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+}
+
+.text-secondary,
+.card-title {
+  font-weight: 300;
+}
+
+.form-section {
+  height: 250px;
+  background-color: #28a745;
+  color: white;
+  padding-top: 35px;
+}
+
+.bg-white {
+  background-color: white;
+  color: grey;
+}
+
+footer img {
+  max-width: 100px;
+}
+
+footer {
+  font-weight: 300;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

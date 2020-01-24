@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  align-items: center;
+  background-color: #000f08;
+  position: fixed;
+}
+
+.navegador_oscuro {
+  text-decoration: none;
+}
+
+.nav__logo {
+  width: 40px;
+  margin-left: 50px;
+  background-color: white;
+  fill: white;
+}
+
+.icono svg {
+  width: 30px;
+  fill: #ffffff;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.hero__section {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 5% 0;
+  text-shadow: 2px 3px 2px #707070;
+}
+
+header h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 3em;
+  padding: 5px 10px 5px 0;
+}
+
+header p {
+  color: white;
+  font-size: 2em;
+  padding-right: 20px;
+}
+
+.ubicacion {
+  margin: 80px 100px 50px 400px;
+  width: 500px;
+}
+
+.proxima__charla {
+  display: flex;
+  height: 300px;
+  width: 97%;
+  margin: 60px 0;
+  padding: 20px;
+  background-color: #e94f37;
+  color: white;
+  text-align: left;
+}
+
+.contenido {
+  width: 300px;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.contenido img {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.ubicacion__charla {
+  width: 60%;
+  height: 30px;
+  padding: 10px 50px 50px 25px;
+}
+
+.titulo__centrado {
+  text-align: center;
+}
+
+.eventos__anteriores {
+  padding-bottom: 5%;
+}
+
+.evento {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.evento a {
+  text-decoration: none;
+}
+
+footer {
+  height: 150px;
+  text-align: center;
+  background-color: #000f08;
+}
+
+footer i {
+  margin: 0.5em 0.25em 0.5em 0.25em;
+}
+
+i {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+/*Hoja de estilo de Evento01*/
+
+.contacto {
+  margin: 30px 30%;
+  text-align: justify;
+}
+
+.contacto .foto_contacto {
+  width: 100%;
+}

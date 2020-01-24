@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #373a3c;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Lobster";
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.carousel-indicators li {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.newsletter {
+  height: 400px;
+  background-color: #dc3545;
+  display: flex;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  color: white;
+  font-family: "Lobster";
+}
