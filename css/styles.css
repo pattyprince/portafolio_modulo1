@@ -23,7 +23,7 @@ a:visited {
 
 .navbar {
   height: 80px;
-  background-color: #398e86;
+  background-color: #ccda46;
   font-family: "Pridi", serif;
   text-decoration: none;
   color: #202020;
@@ -59,7 +59,7 @@ hr {
 
 #proyectos {
   background-color: #f8f9fa;
-  color: #398e86;
+  color: #202020;
 }
 
 .card {
