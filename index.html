@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -42,7 +43,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"> </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
@@ -88,15 +89,15 @@
     </header>
     <!-- fin jumbotron -->
     <!-- inicio acerca de mi -->
-    <section id="acerca_mi" class="acerca container pt-2 px-0">
-      <div class="row">
+    <section id="acerca_mi" class="acerca container pt-2 px-0 ">
+      <div class="row ">
         <div class="mx-auto">
           <h2 class="text-center">
             <br />
             ACERCA DE MI
           </h2>
-          <div class="row">
-            <div class="media container flex-column flex-lg-row py-4">
+          <div class="row ">
+            <div class="media container  flex-column flex-lg-row  py-4">
               <img
                 src="assets/img/patt_bn.jpg"
                 class="align-self-center rounded-circle "
@@ -121,19 +122,40 @@
     </section>
     <!-- fin acerca de mi -->
     <!-- inicio proyectos -->
-    <section id="proyectos" class="container-fluid col-12">
+    <section id="proyectos" class="container-fluid col-12  ">
       <div class="container">
       <h2 class="text-center py-2">
         <br /><br />
         MIS PROYECTOS
       </h2>
-          <div class="row row-cols-md-2">
-            <div class="container">
-              <div class="row text-center text-lg-left">
-                <div class="col-lg-3 col-md-4 col-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid" src="./assets/img/we-work.jpg" alt="meetcoffee">
-                      </a>
+      <div class="row  row-cols-md-2">
+        <!-- <!-- proyecto1 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img
+              src="assets/img/we-work.jpg"
+              class="card-img-top"
+              alt="iguana página"
+            /><button
+              type="button"
+              class="btn btn-outline-dark"
+              data-toggle="modal"
+              data-target=".coffe-modal"
+              data-toggle="tooltip"
+              title="Haz clic"
+            >
+              Ver proyecto
+            </button>
+            <div
+              class="modal fade coffe-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="assets/img/meet_coffee.png" alt="coffe page" />
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                   <a href="#" class="d-block mb-4 h-100">
@@ -145,19 +167,52 @@
                         <img class="img-fluid" src="./assets/img/cupon-1.jpg" alt="cuppon">
                       </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid" src="./assets/img/slider-7.png" alt="ricomida">
-                      </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Cuppon</h5>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto4 -->
+        <div class="col mb-4">
+          <div class="card container-fluid">
+            <img
+              src="assets/img/slider-7.png"
+              class="card-img-top"
+              alt="ricomida"
+            /><button
+              type="button"
+              class="btn btn-outline-dark"
+              data-toggle="modal"
+              data-target=".ricomida-modal"
+              data-toggle="tooltip"
+              title="Haz clic"
+            >
+              Ver proyecto
+            </button>
+            <div
+              class="modal fade ricomida-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                  <img src="assets/img/ricomida.png" alt="ricomida" />
                 </div>
               </div>
-            </div
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ricomida</h5>
+            </div>
           </div>
       </div>
     </section>
-    <!-- fin de proyectos -->
+    <!-- fin de proyectos --> -->
     <!--inicio Mi experiencia  -->
-    <section id="experiencia" class="container-fluid pt-4">
+    <section id="experiencia" class="container-fluid  pt-4">
       <div class="row">
         <div class="container">
           <h2 class="text-center py-4 ">
