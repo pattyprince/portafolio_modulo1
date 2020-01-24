@@ -4,6 +4,10 @@ body {
   font-family: "Catamaran", sans-serif;
   background-color: white;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -22,7 +26,6 @@ a:visited {
 }
 
 .navbar {
-  height: 80px;
   background-color: #398e86;
   font-family: "Pridi", serif;
   text-decoration: none;
@@ -46,6 +49,9 @@ nav ul li {
   color: #202020;
 }
 
+.acerca {
+  max-width: 700px;
+}
 .acerca h2 {
   text-align: center;
   margin: 0;
@@ -68,13 +74,15 @@ hr {
 }
 
 #habilidades {
-  height: 100%;
   padding-bottom: 20px;
   margin: 0;
   background-color: #202020;
   color: white;
 }
-
+.container_habi {
+  margin: 0 auto;
+  max-width: 900px;
+}
 #habilidades h5,
 h2 {
   color: #398e86;
@@ -200,12 +208,7 @@ h2 {
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
+
 .timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
