@@ -14,7 +14,7 @@ a:active {
 }
 
 a:hover {
-  color: #202020;
+  color: #f0ad4e;
 }
 
 a:visited {
@@ -22,16 +22,16 @@ a:visited {
 }
 
 .navbar {
-  background-color: #f5f5f5;
+  height: 80px;
+  background-color: #398e86;
   font-family: "Pridi", serif;
-  font-size: large;
   text-decoration: none;
   color: #202020;
 }
 
 .navbar-brand {
   font-family: "Pridi";
-  font-size: 40px;
+  font-size: 30px;
 }
 
 nav ul li {
@@ -46,8 +46,8 @@ nav ul li {
   color: #202020;
 }
 
-.acerca {
-  height: 300px;
+.acerca h2 {
+  text-align: center;
   margin: 0;
   padding-top: 30px;
   background-color: white;
@@ -59,7 +59,7 @@ hr {
 
 #proyectos {
   background-color: #f8f9fa;
-  color: #202020;
+  color: #398e86;
 }
 
 .card {
@@ -68,12 +68,24 @@ hr {
 }
 
 #habilidades {
+  height: 100%;
+  padding-bottom: 20px;
+  margin: 0;
   background-color: #202020;
   color: white;
 }
 
+#habilidades h5,
+h2 {
+  color: #398e86;
+}
+
 #habilidades img {
   height: 64px;
+}
+
+#habilidades .slash {
+  color: #f0ad4e;
 }
 
 .timeline {
