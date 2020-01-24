@@ -31,8 +31,8 @@
   </head>
   <body>
     <!-- inicio navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top px-4">
-      <a class="navbar-brand px-4 mx-5" href="#">Patty Prince</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class="navbar-brand" href="./index.html">Patty Prince</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -45,7 +45,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#acerca_mi">Acerca de mí</a>
           </li>
@@ -84,8 +84,9 @@
     </header>
     <!-- fin jumbotron -->
     <!-- inicio acerca de mi -->
-    <section id="acerca_mi" class="acerca container-fluid px-4">
-      <div class="container">
+    <section id="acerca_mi" class="acerca container px-4">
+      <div class="row container">
+        <div class="mx-5 col-md-6 m-auto">
         <h2 class="text-center">
           ACERCA DE MI
         </h2>
@@ -109,6 +110,7 @@
             </div>
           </div>
         </div>
+        </div>
       </div>
     </section>
     <!-- fin acerca de mi -->
@@ -118,10 +120,10 @@
         MIS PROYECTOS
       </h2>
       <div class="row row-cols-1 row-cols-md-2">
-        <!-- proyecto1 -->
+        <!-- <!-- proyecto1 -->
         <div class="col mb-4">
           <div class="card container-fluid">
-            <img src="./img/meet_coffee.png" alt="meet coffee" /><button
+            <img src="./img/we-work.jpg" alt="meet coffee" /><button
               type="button"
               class="btn btn-outline-dark"
               data-toggle="modal"
@@ -140,7 +142,7 @@
             >
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                  <img src="./img/we-work.jpg" alt="meet coffee" />
+                  <img src="./img/meet_coffee2.png" alt="meet coffee" />
                 </div>
               </div>
             </div>
@@ -256,7 +258,7 @@
         </div>
       </div>
     </section>
-    <!-- fin de proyectos -->
+    <!-- fin de proyectos --> -->
     <!--inicio Mi experiencia  -->
     <section id="experiencia" class="container-fluid">
       <div class="row">
@@ -275,7 +277,7 @@
                     </div>
                     <div class="timeline-panel">
                       <div class="timeline-heading">
-                        <h4 class="timeline-title">Analista de Prensa</h4>
+                        <h5 class="timeline-title">Analista de Prensa</h5>
                       </div>
                       <div class="timeline-body">
                         <p>
@@ -292,7 +294,7 @@
                     </div>
                     <div class="timeline-panel">
                       <div class="timeline-heading">
-                        <h4 class="timeline-title">Periodista</h4>
+                        <h5 class="timeline-title">Periodista</h5>
                       </div>
                       <div class="timeline-body">
                         <p>
@@ -313,9 +315,9 @@
                     </div>
                     <div class="timeline-panel">
                       <div class="timeline-heading">
-                        <h4 class="timeline-title">
-                          Asesor de Comunicaciones Corporativas
-                        </h4>
+                        <h5 class="timeline-title">
+                          Asesora de Comunicaciones Corporativas
+                        </h5>
                       </div>
                       <div class="timeline-body">
                         <p>
@@ -339,7 +341,7 @@
     <!-- fin mi experiencia -->
     <!-- inicio habilidades -->
     <section id="habilidades">
-      <h2 class="text-center py-4">
+      <h2 class="text-center pt-4">
         MIS HABILIDADES
       </h2>
       <div class="row container m-auto px-4">
@@ -353,8 +355,8 @@
             <div class="media-body">
               <h5 class="mt-0 h3">Habilidades blandas</h5>
               <p>
-                Empatía / Optimismo / Sentido de Humor / Colaboración / Buena
-                Comunicación / Puntualidad / Trabajo en Equipo / Amigable /
+                Empatía <span class="slash">/</span> Optimismo <span class="slash">/</span> Sentido de Humor <span class="slash">/</span> Colaboración <span class="slash">/</span> Buena
+                Comunicación <span class="slash">/</span> Puntualidad <span class="slash">/</span> Trabajo en Equipo <span class="slash">/</span> Amigable <span class="slash">/</span>
                 Fácil Adaptación
               </p>
             </div>
@@ -367,7 +369,7 @@
             />
             <div class="media-body">
               <h5 class="mt-0 h3">Habilidades técnicas</h5>
-              <p>Microsoft Office / Adobe Creative Suite / Wordpress CMS</p>
+              <p>Microsoft Office <span class="slash">/</span> Adobe Creative Suite <span class="slash">/</span> Wordpress CMS</p>
             </div>
           </div>
           <div class="media col-lg-12 p-4">
@@ -379,9 +381,9 @@
             <div class="media-body">
               <h5 class="mt-0 h3">Comunicaciones corporativas</h5>
               <p>
-                Comunicaciones internas y externas / Plan de comuncaciones /
-                Campañas / Identidad e Imagen Corporativa / Redacción para
-                medios / Periodismo institucional
+                Comunicaciones internas y externas <span class="slash">/</span> Plan de comuncaciones <span class="slash">/</span>
+                Campañas <span class="slash">/</span> Identidad e Imagen Corporativa <span class="slash">/</span> Redacción para
+                medios <span class="slash">/</span> Periodismo institucional
               </p>
             </div>
           </div>
@@ -390,47 +392,10 @@
     </section>
     <!-- fin habilidades -->
     <!-- inicio contacto -->
-    <section id="contacto" class="contacto_form">
+    <section id="contacto" class="contacto_form my-4">
       <div>
-        <h2>SEAMOS UN <span class="navbar-brand">EQUIPO</span></h2>
-        <h4>las mejores ideas nacen conversando</h4>
-      </div>
-      <div class="text-center">
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg text-white mb-5"
-        >
-          <a
-            class="typeform-share button"
-            href="https://patty801226.typeform.com/to/Pd2Tll"
-            data-mode="popup"
-            style="display:inline-block;text-decoration:none;background-color: transparent;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
-            target="_blank"
-            >Contáctame
-          </a>
-          <script>
-            (function() {
-              var qs,
-                js,
-                q,
-                s,
-                d = document,
-                gi = d.getElementById,
-                ce = d.createElement,
-                gt = d.getElementsByTagName,
-                id = "typef_orm_share",
-                b = "https://embed.typeform.com/";
-              if (!gi.call(d, id)) {
-                js = ce.call(d, "script");
-                js.id = id;
-                js.src = b + "embed.js";
-                q = gt.call(d, "script")[0];
-                q.parentNode.insertBefore(js, q);
-              }
-            })();
-          </script>
-        </button>
-      </div>
+      <div class="typeform-widget" data-url="https://patty801226.typeform.com/to/Pd2Tll" style="width: 100%; height: 480px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Pd2Tll&utm_source=typeform.com-01DZ4HAVE2DGYFP8G9K278NSSE-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
     </section>
     <!-- fin contacto -->
     <!-- footer  -->
