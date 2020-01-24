@@ -68,6 +68,25 @@ hr {
   color: #398e86;
 }
 
+footer {
+  font-family: "catamaran";
+  text-align: center;
+  color: white;
+}
+
+#proyectos a:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
+#proyectos a {
+  color: #398e86;
+}
+
+#proyectos a:visited {
+  color: #f2f2f2;
+}
+
 .card {
   max-height: 550px;
   max-width: 450px;
