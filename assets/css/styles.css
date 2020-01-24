@@ -79,10 +79,12 @@ hr {
   background-color: #202020;
   color: white;
 }
+
 .container_habi {
   margin: 0 auto;
   max-width: 900px;
 }
+
 #habilidades h5,
 h2 {
   color: #398e86;
